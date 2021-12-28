@@ -1,0 +1,33 @@
+package array;
+
+import java.util.Scanner;
+
+public class SalesArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		//double sales[]= {10.00,20.00,30.00,40.00,50.00};
+		double sales[] = new double[5];
+		int index, maxIndex;
+		double largestSale;
+		
+		maxIndex = 0;
+		System.out.println("Enter 5 array element: ");
+		for(int x = 0; x < sales.length; x++)
+			sales[x]= sc.nextDouble();
+		
+		for(index = 1; index< sales.length; index++)
+			if(sales[maxIndex]< sales[index])
+				maxIndex=index;
+		
+		largestSale= sales[maxIndex];
+		
+		System.out.println(largestSale);
+		System.out.println(maxIndex);
+	}
+
+}
