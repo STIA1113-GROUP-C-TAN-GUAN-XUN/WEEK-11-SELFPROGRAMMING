@@ -1,0 +1,18 @@
+package array;
+
+import java.util.Scanner;
+
+public class Exercise1 {
+	
+	public static void main(String[] args) {
+		
+		//int [] numArray = new int[15]; 
+		
+		int numArray[]= {1,2,3,4,5,35,7,8,9,10,11,12,13,14,15,16};
+		
+		System.out.println("The tenth element is " + numArray[10]);
+		
+		
+	}
+
+}
