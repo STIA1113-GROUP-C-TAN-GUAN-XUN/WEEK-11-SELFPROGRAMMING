@@ -1,0 +1,38 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class SalesArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		//Initializing array
+		double [] sales = new double [10];
+		
+		for(int index=0;index<sales.length;index++)
+			sales[index]=10.00;
+			
+		for(int x=0;x<sales.length;x++) {
+			System.out.println(sales[x]);
+		}
+		
+		//Input data 
+		double bigSales [] = new double [5];
+		
+		System.out.println("Enter the value of array: ");
+		for (int y=0;y<bigSales.length;y++) {
+			bigSales[y]= sc.nextDouble();
+		}
+		
+		for(int z=0;z<bigSales.length;z++) {
+			System.out.println(bigSales[z]);
+		}
+		
+		
+		
+	}
+
+}
