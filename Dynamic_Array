@@ -1,0 +1,22 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Dynamic_Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		//Dynamic Array
+				System.out.println("Enter the size of array: ");
+				int array_size = sc.nextInt();
+				
+				int [] array = new int [array_size];
+				
+				System.out.println("Array size is: " + array_size);
+				
+				sc.close();
+	}
+
+}
