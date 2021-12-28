@@ -1,0 +1,32 @@
+package selfProgramming;
+
+public class One_Dimensional_Arrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] test = new int[5];
+		
+		test[0]=85;
+		test[1]=98;
+		test[2]=75;
+		test[3]=87;
+		test[4]=68;
+		
+		for(int x=0; x <test.length; x++) {
+			System.out.println(test[x]);
+		}
+		
+		System.out.println();
+		
+		char [] grade = {'A','B','C','D','E'};
+		
+		for(int x=0; x<grade.length;x++) {
+			System.out.println(grade[x]);
+		}
+		
+		
+		
+	}
+
+}
